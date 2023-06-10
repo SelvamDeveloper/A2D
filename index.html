@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2D Pc Factory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="img/logo1.png" alt="logo">
+        </div>
+       	<!-- 3D content  -->
+        <div class="model">
+            <model-viewer  src="scene.gltf" alt="A 3D model of a car" shadow-intensity="2" camera-controls auto-rotate ar >
+            </model-viewer>
+
+        </div>
+        <div class="details">
+            <h1>Website is <span>under</span> construction </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vitae ullam reprehenderit expedita ab praesentium, quibusdam vero error corrupti nulla beatae optio a aspernatur quia rerum ipsa ipsam, delectus animi.</p>
+            <div class="button">
+                <a href=""></a><button class="active">learn more</button>
+                <a href=""></a><button>Check out</button>
+            </div>
+        </div>
+    
+
+	
+
+	<!-- Loads -->
+	  <script type="module"
+		  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+	  </script>
+
+	<!-- Loads  -->
+	<script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+	</script>
+    </div>
+</body>
+</html>
